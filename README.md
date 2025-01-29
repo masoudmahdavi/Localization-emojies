@@ -19,3 +19,4 @@ To run this project, follow these steps:
    ```bash
    git clone <repository-url>
    cd <repository-name>
+2. Open jupyter notebook
