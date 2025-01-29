@@ -1,7 +1,21 @@
-# Localization and Classification Emojies
-For a long time, I wanted to do a project about Computer Vision and Tensorflow and push it to my GitHub, when I saw a project called [Object Localization with TensorFlow](https://www.coursera.org/projects/object-localization-tensorflow) in Coursera Project Network, I decided to customize the project and push it to my GitHub.
+# Emoji Localization and Classification  
 
-The project is about the localization and classification of emojis on one screen (there is a white background here), which was done using the Tensorflow library. I implemented the model as VGG16 and finally plotted the accuracy and error graphs. I push
-This project cannot recognize multiple instances and can only detect one instance at a time.
+I've always wanted to work on a Computer Vision project using TensorFlow and share it on my GitHub. When I came across the [Object Localization with TensorFlow](https://www.coursera.org/projects/object-localization-tensorflow) project on Coursera, I decided to customize it and create my own version.  
 
-<img width="1000" src="https://github.com/masoudmahdavi/Localization-emojies/blob/main/Emojis.png?raw=true">
+## Project Overview  
+
+This project uses TensorFlow to localize and classify a single emoji on a plain white background. I implemented the model based on VGG16 and visualized the accuracy and error metrics.  
+
+## Limitations  
+
+- The model can only detect **one emoji at a time**.  
+- It **does not support multiple instance detection**.  
+
+## Getting Started  
+
+To run this project, follow these steps:  
+
+1. Clone the repository:  
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
